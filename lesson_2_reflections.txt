@@ -4,6 +4,7 @@ A file called .git is created. And the technical "repository" is created. You ne
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Staging area seems like a place where you put files when they are about to be ready to be commited. I havent really figured out the value yet, i'm not sure i fully understand.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
