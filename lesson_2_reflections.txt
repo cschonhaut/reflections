@@ -8,14 +8,19 @@ Staging area seems like a place where you put files when they are about to be re
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can put documents there after each change? I need help understanding the staging area better, it seems pointless to me right now.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+If you want to create different versions of files, that have slight variations. Using branches will save you time and overhead
 
 How do the diagrams help you visualize the branch structure?
+It allows you to see all the commits and all the branches of a project. it also allows you to see all the parents, and which commits can be reached and which can't
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+You create a new label, and you eliminate the old one. this doesnt get rid of the commits though, those commits are still included in the new, merged branch
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+it would take forever to always do merges manually, plus it seems pretty complicated. the good thing about git is that it recognizes when it needs help and when its automation wont cut it. if it didnt report conflicts the way it does, the resulting merged branches would probably have a lot of bugs and it would be alot more work than worth.
